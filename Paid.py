@@ -119,7 +119,7 @@ def NASRAT():
     print ('                     Checking Approval')
     time.sleep(1) 
     try:
-        to = open('/sdcard/Android/.NASRAT.txt', 'r').read()
+        to = open('/sdcard/Android/.aprovel.txt', 'r').read()
     except (KeyError, IOError):
         NASRAT2()
     r = requests.get('https://github.com/Nasrat99845/JanmAFG/tree/main').text
@@ -131,7 +131,7 @@ def NASRAT():
         os.system('https://www.facebook.com/profile.php?id=100001358458659')
         logo()
         print('')
-        print ('               \tApproved Not Detected')
+        print ('               \tApproved')
         print ('')
         print("            \033[1;97mTHIS TOOL IS PAID YOU NEED TO GET APPROVED FIRST")
         print ('               \033[1;97mYOUR KEY : ' + to)
@@ -460,5 +460,6 @@ class __bsn__:
 
 if __name__ == '__main__':
     NASRAT()
+
 
 
